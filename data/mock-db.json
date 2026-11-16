@@ -1,0 +1,362 @@
+{
+  "users": [
+    {
+      "id": "usr_maya",
+      "name": "Maya Lin",
+      "email": "maya@acme.co",
+      "password": "demo1234",
+      "company": "Acme Labs",
+      "role": "Founder",
+      "planName": "Pack of 3",
+      "packCreditsRemaining": 1,
+      "joinedAt": "2026-09-14"
+    },
+    {
+      "id": "usr_alex",
+      "name": "Alex Rivera",
+      "email": "alex@northstar.io",
+      "password": "demo1234",
+      "company": "Northstar Analytics",
+      "role": "Head of Growth",
+      "planName": "Long form",
+      "packCreditsRemaining": 0,
+      "joinedAt": "2026-10-03"
+    },
+    {
+      "id": "usr_elena",
+      "name": "Elena Rostova",
+      "email": "elena@kinetix.dev",
+      "password": "demo1234",
+      "company": "Kinetix Cloud",
+      "role": "VP Marketing",
+      "planName": "Pack of 3",
+      "packCreditsRemaining": 2,
+      "joinedAt": "2026-11-02"
+    }
+  ],
+  "brandKits": {
+    "usr_maya": {
+      "companyName": "Acme Labs",
+      "primaryColor": "#4a43e8",
+      "accentColor": "#d9f56b",
+      "defaultStyle": "demo",
+      "defaultLength": "30 seconds",
+      "toneNotes": "Crisp, direct, founder-led product voice. Avoid hype adjectives; show concrete workflow transitions."
+    },
+    "usr_alex": {
+      "companyName": "Northstar Analytics",
+      "primaryColor": "#0284c7",
+      "accentColor": "#d9f56b",
+      "defaultStyle": "data",
+      "defaultLength": "60 seconds",
+      "toneNotes": "Data-first framing with sharp numeric callouts and clean dark terminal outro."
+    },
+    "usr_elena": {
+      "companyName": "Kinetix Cloud",
+      "primaryColor": "#10162f",
+      "accentColor": "#d9f56b",
+      "defaultStyle": "code",
+      "defaultLength": "30 seconds",
+      "toneNotes": "Developer-first tone with real CLI commands and clean high-contrast typography."
+    }
+  },
+  "orders": [
+    {
+      "id": "CR-4082",
+      "userId": "usr_maya",
+      "title": "Acme Q4 Launch Reel",
+      "style": "kinetic",
+      "plan": "pack",
+      "length": "30 seconds",
+      "brandColor": "#4a43e8",
+      "goal": "Announce our v2.4 release across X, LinkedIn, and the homepage hero.",
+      "notes": "Open with 'Ship faster. Zero guesswork.' End on acme.co URL.",
+      "status": "Ready to download",
+      "editsTotal": 2,
+      "editsUsed": 1,
+      "createdAt": "2026-11-08",
+      "etaDate": "2026-11-11",
+      "deliveredAt": "2026-11-11",
+      "resolution": "1080p MP4",
+      "fileSize": "24.8 MB",
+      "assignedProducer": "Samira Chen",
+      "priority": "Priority",
+      "internalNote": "End card held 2.2s as requested in round 1.",
+      "revisions": [
+        {
+          "id": "rev_1",
+          "author": "Codereel Studio",
+          "role": "studio",
+          "timestamp": "2026-11-10 14:20",
+          "timecode": "0:00",
+          "note": "First cut uploaded. Kinetic word timing locked to 124 BPM beat."
+        },
+        {
+          "id": "rev_2",
+          "author": "Maya Lin",
+          "role": "client",
+          "timestamp": "2026-11-10 18:05",
+          "timecode": "0:18",
+          "note": "Can we hold the final 'acme.co' frame 0.8s longer and bump the indigo contrast slightly?"
+        },
+        {
+          "id": "rev_3",
+          "author": "Codereel Studio",
+          "role": "studio",
+          "timestamp": "2026-11-11 10:12",
+          "timecode": "0:18",
+          "note": "Updated end-card hold to 2.2s and deepened indigo backdrop to #4a43e8. Final 1080p MP4 ready."
+        }
+      ]
+    },
+    {
+      "id": "CR-4095",
+      "userId": "usr_maya",
+      "title": "Taskly Onboarding Walkthrough",
+      "style": "demo",
+      "plan": "pack",
+      "length": "30 seconds",
+      "brandColor": "#2563eb",
+      "goal": "Show new signups how to create a weekly report in three clicks.",
+      "notes": "Highlight the cursor click on 'Create report' and the green toast confirmation.",
+      "status": "Edit round in progress",
+      "editsTotal": 2,
+      "editsUsed": 1,
+      "createdAt": "2026-11-12",
+      "etaDate": "2026-11-15",
+      "deliveredAt": null,
+      "resolution": "1080p MP4",
+      "fileSize": "29.4 MB",
+      "assignedProducer": "Marcus Bell",
+      "priority": "Priority",
+      "internalNote": "Client requested +20% checkmark speed at 0:12.",
+      "revisions": [
+        {
+          "id": "rev_4",
+          "author": "Codereel Studio",
+          "role": "studio",
+          "timestamp": "2026-11-14 11:30",
+          "timecode": "0:00",
+          "note": "First cut ready for review with simulated UI cursor flow."
+        },
+        {
+          "id": "rev_5",
+          "author": "Maya Lin",
+          "role": "client",
+          "timestamp": "2026-11-15 09:42",
+          "timecode": "0:12",
+          "note": "Looks super clean! Could we speed up the list row checkmarks by ~20% so the toast hits right at 0:15?"
+        }
+      ]
+    },
+    {
+      "id": "CR-4104",
+      "userId": "usr_maya",
+      "title": "SDK v3 Quickstart Explainer",
+      "style": "code",
+      "plan": "single",
+      "length": "15 seconds",
+      "brandColor": "#10162f",
+      "goal": "Developer docs header clip showing 3-line install and render output.",
+      "notes": "Use monospace terminal theme with lime checkmarks.",
+      "status": "Rendering first cut",
+      "editsTotal": 2,
+      "editsUsed": 0,
+      "createdAt": "2026-11-15",
+      "etaDate": "2026-11-18",
+      "deliveredAt": null,
+      "resolution": "1080p MP4",
+      "fileSize": "Pending",
+      "assignedProducer": "Samira Chen",
+      "priority": "Standard",
+      "internalNote": "Scene 1 typing sequence authored; awaiting final 60fps render.",
+      "revisions": [
+        {
+          "id": "rev_6",
+          "author": "Codereel Studio",
+          "role": "studio",
+          "timestamp": "2026-11-15 16:00",
+          "timecode": "0:00",
+          "note": "Brief received and queued. Code scene timing is currently being authored."
+        }
+      ]
+    },
+    {
+      "id": "CR-3988",
+      "userId": "usr_maya",
+      "title": "Seed Round Traction Story",
+      "style": "data",
+      "plan": "single",
+      "length": "30 seconds",
+      "brandColor": "#4a43e8",
+      "goal": "Recap +212% weekly active workspace growth for our investor update.",
+      "notes": "Keep chart bars minimal and let the +212% count-up breathe.",
+      "status": "Delivered",
+      "editsTotal": 2,
+      "editsUsed": 2,
+      "createdAt": "2026-10-19",
+      "etaDate": "2026-10-22",
+      "deliveredAt": "2026-10-22",
+      "resolution": "1080p MP4",
+      "fileSize": "21.6 MB",
+      "assignedProducer": "Marcus Bell",
+      "priority": "Standard",
+      "internalNote": "Completed and downloaded by client.",
+      "revisions": [
+        {
+          "id": "rev_7",
+          "author": "Codereel Studio",
+          "role": "studio",
+          "timestamp": "2026-10-22 15:10",
+          "timecode": "0:00",
+          "note": "Final 1080p MP4 delivered after round 2 typography polish."
+        }
+      ]
+    },
+    {
+      "id": "CR-4070",
+      "userId": "usr_alex",
+      "title": "Northstar Q3 Benchmark Story",
+      "style": "data",
+      "plan": "long",
+      "length": "60 seconds",
+      "brandColor": "#0284c7",
+      "goal": "Walk enterprise buyers through latency reduction across 6 regions.",
+      "notes": "Include 6-bar growth progression and clean white background.",
+      "status": "Ready to download",
+      "editsTotal": 3,
+      "editsUsed": 1,
+      "createdAt": "2026-11-04",
+      "etaDate": "2026-11-07",
+      "deliveredAt": "2026-11-07",
+      "resolution": "1080p MP4",
+      "fileSize": "46.2 MB",
+      "assignedProducer": "Samira Chen",
+      "priority": "Standard",
+      "internalNote": "Enterprise cut approved.",
+      "revisions": [
+        {
+          "id": "rev_8",
+          "author": "Codereel Studio",
+          "role": "studio",
+          "timestamp": "2026-11-07 13:45",
+          "timecode": "0:00",
+          "note": "Final 60s master exported at 60fps 1080p."
+        }
+      ]
+    },
+    {
+      "id": "CR-4109",
+      "userId": "usr_elena",
+      "title": "Kinetix Edge Deploy Demo",
+      "style": "code",
+      "plan": "pack",
+      "length": "30 seconds",
+      "brandColor": "#10162f",
+      "goal": "Show zero-config edge deployment in 4 CLI commands for Product Hunt launch.",
+      "notes": "Keep dark midnight palette with lime CLI success badges.",
+      "status": "Rendering first cut",
+      "editsTotal": 2,
+      "editsUsed": 0,
+      "createdAt": "2026-11-16",
+      "etaDate": "2026-11-18",
+      "deliveredAt": null,
+      "resolution": "1080p MP4",
+      "fileSize": "Pending",
+      "assignedProducer": "Unassigned",
+      "priority": "Priority",
+      "internalNote": "New Pack of 3 priority intake — assign producer.",
+      "revisions": [
+        {
+          "id": "rev_9",
+          "author": "Codereel Studio",
+          "role": "studio",
+          "timestamp": "2026-11-16 06:45",
+          "timecode": "0:00",
+          "note": "Brief received. Priority Pack of 3 slot reserved."
+        }
+      ]
+    }
+  ],
+  "receipts": [
+    {
+      "id": "INV-2026-108",
+      "userId": "usr_elena",
+      "date": "2026-11-16",
+      "description": "Pack of 3 videos (Priority delivery)",
+      "amount": 399,
+      "status": "Paid"
+    },
+    {
+      "id": "INV-2026-104",
+      "userId": "usr_maya",
+      "date": "2026-11-15",
+      "description": "Single video (15s · Code explainer) — CR-4104",
+      "amount": 149,
+      "status": "Paid"
+    },
+    {
+      "id": "INV-2026-091",
+      "userId": "usr_maya",
+      "date": "2026-11-08",
+      "description": "Pack of 3 videos (Priority delivery)",
+      "amount": 399,
+      "status": "Paid"
+    },
+    {
+      "id": "INV-2026-082",
+      "userId": "usr_alex",
+      "date": "2026-11-04",
+      "description": "Long form video (60s · Data story) — CR-4070",
+      "amount": 299,
+      "status": "Paid"
+    },
+    {
+      "id": "INV-2026-067",
+      "userId": "usr_maya",
+      "date": "2026-10-19",
+      "description": "Single video (30s · Data story) — CR-3988",
+      "amount": 149,
+      "status": "Paid"
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "INQ-304",
+      "userId": "usr_elena",
+      "orderId": "CR-4109",
+      "subject": "Product Hunt square crop question",
+      "message": "Hi team — for CR-4109, is 1080p landscape fine for our Product Hunt gallery or should we also add notes for safe margins?",
+      "status": "Open",
+      "createdAt": "2026-11-16 06:52",
+      "reply": ""
+    },
+    {
+      "id": "INQ-298",
+      "userId": "usr_maya",
+      "orderId": "CR-4095",
+      "subject": "Checkmark timing tweak on Taskly demo",
+      "message": "Submitted a timecode note at 0:12 for CR-4095 — hoping to publish before Thursday's changelog email.",
+      "status": "Open",
+      "createdAt": "2026-11-15 09:46",
+      "reply": ""
+    },
+    {
+      "id": "INQ-281",
+      "userId": "usr_alex",
+      "orderId": "CR-4070",
+      "subject": "Invoice copy for finance",
+      "message": "Downloaded the 60s master, thanks! Confirmed finance has INV-2026-082.",
+      "status": "Resolved",
+      "createdAt": "2026-11-08 11:15",
+      "reply": "Glad to hear! Invoice INV-2026-082 is archived in your Billing & data tab anytime you need it."
+    }
+  ],
+  "catalogConfig": {
+    "singlePrice": 149,
+    "packPrice": 399,
+    "longPrice": 299,
+    "standardTurnaroundDays": 1,
+    "priorityTurnaroundDays": 1
+  }
+}
